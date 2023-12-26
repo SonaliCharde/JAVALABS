@@ -24,6 +24,7 @@ public class Lab105 {
             if (marks[i]<35){
                 System.out.println("You have failed in this subject ");
                 System.out.println("Your subject marks are = "+marks[i]);
+                sc.close();
             }
         }
     }
