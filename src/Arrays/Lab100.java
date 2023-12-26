@@ -28,5 +28,8 @@ public class Lab100 {
 
         items1=items2;
         System.out.println(items1==items2); //true as items1 is assigned to items2
+
+        System.out.println(arr1.equals(arr2)); //False because int arr. will check for the refrences
+        System.out.println(items1.equals(items2));
     }
 }
