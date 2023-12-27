@@ -1,4 +1,4 @@
-package IFELSEandLOOPS;
+package LoopsANDConditionalStatements;
 import java.util.Scanner;
 
 public class GradeCalculatorusingifelseif {

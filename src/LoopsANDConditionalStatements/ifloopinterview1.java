@@ -1,4 +1,4 @@
-package IFELSEandLOOPS;
+package LoopsANDConditionalStatements;
 
 public class ifloopinterview1 {
     public static void main (String[]args){
