@@ -1,4 +1,7 @@
 package Basics;
+
+import java.io.PrintStream;
+
 //import java.util.MissingFormatArgumentException;
 public class Lab007 {
     public static void main(String[]args){
@@ -13,7 +16,7 @@ public class Lab007 {
         // %c -> char
         // %f -> float
 
-        System.out.printf("Age is %d "+age  );
+        System.out.printf("Age is %d ", age);
 //        String s = "Sonali";
 //        System.out.print("Name is %s"+s);
 //        char c ='%';
