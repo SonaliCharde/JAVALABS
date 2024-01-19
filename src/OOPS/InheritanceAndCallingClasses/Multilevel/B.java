@@ -1,4 +1,4 @@
-package OOPS.Inheritance.Hierarchical;
+package OOPS.InheritanceAndCallingClasses.Multilevel;
 
 public class B extends A {
  String a = "10lakhs";

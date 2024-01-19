@@ -13,10 +13,10 @@ public class Person {
     String emailId;
 
     // Behaviour - What you can do?
-    void sleep(){
+    public void sleep(){
         System.out.println(name+ " sleeps");
     }
-    void work(){
+    public void work(){
         System.out.println(name +" Works in an IT firm");
     }
     boolean status(){

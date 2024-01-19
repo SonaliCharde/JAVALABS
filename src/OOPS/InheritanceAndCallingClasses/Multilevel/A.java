@@ -1,4 +1,4 @@
-package OOPS.Inheritance.Hierarchical;
+package OOPS.InheritanceAndCallingClasses.Multilevel;
 
 public class A {
     public void Wealth(){

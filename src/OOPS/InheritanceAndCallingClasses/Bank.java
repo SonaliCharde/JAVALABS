@@ -1,17 +1,17 @@
-package OOPS.Inheritance;
+package OOPS.InheritanceAndCallingClasses;
 
 public class Bank {
     String BankName;
     String IFSCcode;
     int FDAmount;
 
-    Bank(){
+    public void SetBank(String SBI){
         BankName = "SBI";
         IFSCcode = "SBI123";
         FDAmount = 100000;
-        System.out.println("Default Cconstructor");
+        System.out.println("Default Constructor");
     }
-    Bank(String bankName, String IFSCcode, int FDAmount){
+    public void SetBank(String bankName, String IFSCcode, int FDAmount){
         this.BankName=bankName;
         this.IFSCcode=IFSCcode;
         this.FDAmount=FDAmount;

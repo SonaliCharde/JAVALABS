@@ -1,4 +1,4 @@
-package OOPS.Inheritance;
+package OOPS.InheritanceAndCallingClasses;
 
 public class ATBPerson {
     String Name;
