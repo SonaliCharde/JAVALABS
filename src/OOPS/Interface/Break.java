@@ -1,4 +1,4 @@
-package OOPS.Abstraction.Interface;
+package OOPS.Interface;
 
 public interface Break {
     void breaks();
