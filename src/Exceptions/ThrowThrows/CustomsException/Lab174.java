@@ -1,7 +1,5 @@
 package Exceptions.ThrowThrows.CustomsException;
 
-import OOPS.InheritanceAndCallingClasses.Bank;
-
 public class Lab174 {
     public static void main(String[] args) {
 
