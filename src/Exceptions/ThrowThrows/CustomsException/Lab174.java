@@ -1,12 +1,12 @@
 package Exceptions.ThrowThrows.CustomsException;
 
 public class Lab174 {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws CustomsException {
 
-        //Bank jpchase = new Bank ("USD", 100);
-//        Bank hdfc = new Bank("INR", 100);
-//        Bank icici = new Bank("INR", 100);
-//
-//        System.out.println(jpchase.add(hdfc));
+        Bank jpchase = new Bank("USD",100);
+        Bank HDFC = new Bank("INR",200);
+
+        System.out.println(HDFC.add(jpchase));
+
     }
 }
