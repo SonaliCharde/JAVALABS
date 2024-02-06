@@ -23,7 +23,7 @@ public class PalindromeString {
 
     static boolean isPalindrome(String UserInput) {
 
-        String Original = UserInput; //Malyalam and Sonali
+        String Original = UserInput; //Malyalam and Sonali and level
         StringBuilder sb = new StringBuilder(UserInput);
         //sb.append(Original);
         String Reversed = sb.reverse().toString();

@@ -8,6 +8,7 @@ public class ReversingString {
         StringBuilder st = new StringBuilder();
         st.append(Input);
 
+
         st.reverse();
 
         System.out.println(st);
