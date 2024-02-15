@@ -13,6 +13,8 @@ public class Lab191 {
         coursesets.add("SDET Blueprint");
         coursesets.add("Java for Testers");
 
+
+        //Hashset does not maintain any order for sorting elements
         System.out.println(coursesets);
         for (Object o :coursesets){
             System.out.println(o);

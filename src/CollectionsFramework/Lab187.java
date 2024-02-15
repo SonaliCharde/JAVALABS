@@ -1,9 +1,6 @@
 package CollectionsFramework;
 
-import java.util.ArrayList;
-import java.util.Collection;
-import java.util.Collections;
-import java.util.List;
+import java.util.*;
 
 public class Lab187 {
     public static void main(String[] args) {
@@ -13,8 +10,13 @@ public class Lab187 {
         marks.add(67);
         marks.add(90);
         marks.add(89);
-
+        System.out.println(marks);
         Collections.sort(marks);
         System.out.println(marks);
+
+        ListIterator iterator = marks.listIterator();
+       while (iterator.hasNext()) {
+           System.out.println(iterator.next());
+       }
     }
 }

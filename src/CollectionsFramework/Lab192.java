@@ -14,6 +14,8 @@ public class Lab192 {
         courseSets.add("SDET Blueprint");
         courseSets.add("Java for Testers");
 
+
+        //LinkedHashSet maintains the order as entered by user
         System.out.println(courseSets);
 
         for (Object o : courseSets){

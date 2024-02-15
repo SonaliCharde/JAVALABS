@@ -1,5 +1,6 @@
 package CollectionsFramework;
 
+import java.util.Collections;
 import java.util.Set;
 import java.util.TreeSet;
 
@@ -18,7 +19,14 @@ public class Lab193 {
         numSet.add(30);
         numSet.add(40);
 
+
+
+
+        //Treeset stores the elements in a sorted order
+        //Treeset cannot store null values
+
         System.out.println(numSet);
+
 
     }
 }
