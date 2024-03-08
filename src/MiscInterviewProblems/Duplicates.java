@@ -1,7 +1,12 @@
 package MiscInterviewProblems;
 
 public class Duplicates {
-    String input = "SSonali";
-    char[] chars = input.toCharArray();
-
+    public static void main(String[] args) {
+//        String input = "SSonali";
+//
+//
+//
+//
+//
+    }
 }
